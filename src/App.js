@@ -1,5 +1,3 @@
-import "./App.scss";
-
 import Banner from "./components/Banner";
 import Article1 from "./components/Article1";
 import Article2 from "./components/Article2";
@@ -20,7 +18,7 @@ const App = () => {
   }
 
   return (
-    <div className="App">
+    <div>
       <Banner img={banner} />
       <Article1 img={article1} />
       <Article2 img={article2} />
